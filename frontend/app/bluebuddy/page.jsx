@@ -13,14 +13,14 @@ export default function Bluebuddy() {
           date="2024"
           tools="Figma / Figjam / Illustrator"
           livrables="Landing page / app mobile / Branding"
-          bgImage="/images/bbdh.png"
+          bgImage="/images/bbd_h.png"
           stats={[
             { label: "Écrans", value: "+74" },
             { label: "Réponses en ligne", value: "+50" },
             { label: "Entretiens", value: "+10" },
             { label: "Plateformes", value: "3" },
           ]}
-          appImage="/images/bbdapp.png"
+          appImage="/images/bbd_r.png"
           appResume="Bluebuddy est né lors d’un hackathon santé, avec l’ambition d’offrir un soutien bienveillant aux jeunes atteints de troubles du comportement alimentaire. Récompensé en 2016 par le prix du meilleur projet “Éducation thérapeutique” lors de l’événement Innovation Santé NewHealth x La Cité des Sciences et de l’Industrie à La Villette, le concept a montré tout son potentiel. Cependant, conçu dans l’urgence, il nécessitait une refonte complète fondée sur une véritable recherche utilisateur et une approche centrée sur l’expérience patient."
           teams={[
             {
@@ -46,16 +46,23 @@ export default function Bluebuddy() {
             },
           ]}
         />
-        <button className="group flex items-center gap-2 bg-black text-white px-6 py-3 rounded-full hover:bg-[#111111] transition-all duration-300">
-          <span className="font-medium tracking-wide group-hover:underline decoration-pink-500 underline-offset-4">
-            Voir le projet
-          </span>
-          {/* <Eye
+        <div className="flex justify-center my-10">
+          <button className="group relative flex items-center justify-center gap-2 bg-black text-white px-6 py-3 rounded-full hover:bg-[#111111] transition-all duration-300 overflow-hidden hover:scale-105">
+            {/* Texte par défaut */}
+            <span className="font-medium tracking-wide transition-opacity duration-300 group-hover:opacity-0">
+              Voir le projet
+            </span>
+            {/* <Eye
             size={18}
             className="transition-transform duration-300 group-hover:scale-110"
           /> */}
-        </button>
 
+            {/* Texte au hover */}
+            <span className="absolute font-medium text-[#ffffff] tracking-wide opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+              En construction
+            </span>
+          </button>
+        </div>
         <section className="hidden w-full bg-[#4A6FEF] flex-col items-center px-4 sm:px-6 md:px-8 lg:px-12 xl:px-20 py-12">
           <div className="flex flex-col max-w-6xl sm:w-[100%] md:w-[90%] lg:w-[80%] xl:w-[60%] gap-2 mx-auto">
             <div className="">

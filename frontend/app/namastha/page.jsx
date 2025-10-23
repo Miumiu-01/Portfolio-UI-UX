@@ -13,13 +13,13 @@ export default function Namastha() {
           date="2020"
           tools="Figma"
           livrables="Site internet/ Éléments print"
-          bgImage="/images/nmth.png"
+          bgImage="/images/nmt_h.png"
           stats={[
             { label: "Site internet", value: "1" },
             { label: "Charte graphique", value: "1" },
             { label: "Supports papier", value: "2" },
           ]}
-          appImage="/images/nmtr.png"
+          appImage="/images/nmt_r.png"
           appResume="Namastha invite à redécouvrir le temps long de la création à travers l’art du batik indonésien.
 
           J’ai conçu un site vitrine et des supports imprimés valorisant cette expérience où chaque geste compte, un espace dédié à la lenteur, à la concentration et au plaisir du faire. Le design met en avant le processus autant que le résultat, célébrant la beauté du geste artisanal et du moment présent."
@@ -41,15 +41,24 @@ export default function Namastha() {
           // ]}
         />
 
-        <button className="group flex items-center gap-2 bg-black text-white px-6 py-3 rounded-full hover:bg-[#111111] transition-all duration-300">
-          <span className="font-medium tracking-wide group-hover:underline decoration-pink-500 underline-offset-4">
-            Voir le projet
-          </span>
-          {/* <Eye
+        <div className="flex justify-center my-10 ">
+          <button className="group relative flex items-center justify-center gap-2 bg-black text-white px-6 py-3 rounded-full hover:bg-[#111111] transition-all duration-300 hover:scale-105">
+            {/* Texte par défaut */}
+            <span className="font-medium tracking-wide transition-opacity duration-300 group-hover:opacity-0">
+              Voir le projet
+            </span>
+            {/* <Eye
             size={18}
             className="transition-transform duration-300 group-hover:scale-110"
           /> */}
-        </button>
+
+            {/* Texte au hover */}
+            <span className="absolute font-medium text-[#ffffff] tracking-wide opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+              En construction
+            </span>
+          </button>
+        </div>
+
         <section className="hidden w-full bg-[#4A6FEF] flex-col items-center px-4 sm:px-6 md:px-8 lg:px-12 xl:px-20 py-12">
           <div className="flex flex-col max-w-6xl sm:w-[100%] md:w-[90%] lg:w-[80%] xl:w-[60%] gap-2 mx-auto">
             <div className="">
