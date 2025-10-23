@@ -1,0 +1,20 @@
+# Node modules locaux
+node_modules
+npm-debug.log
+yarn-error.log
+
+# Dossiers de build locaux
+.next
+out
+
+# IDE et système
+.vscode
+.DS_Store
+*.log
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Si tu as des dossiers de tests ou autres fichiers inutiles
+tests
