@@ -31,8 +31,8 @@ export default function Home() {
                   Bluebuddy App
                 </h3>
                 <p className="font-rubik text-[#000000] text-base md:text-lg">
-                  L’application de suivi contre les Troubles du Comportement
-                  Alimentaire Refonte UX/UI plus humaine, ludique et engageante.
+                  L’application de suivi contre les TCA. Refonte UX/UI plus
+                  humaine, ludique et engageante.
                 </p>
                 <Link
                   href="/bluebuddy"
@@ -115,9 +115,8 @@ export default function Home() {
                   Namastha
                 </h3>
                 <p className="font-rubik text-[#000000] text-base md:text-lg">
-                  Lorem ipsum dolor sit amet consectetur. Convallis at diam
-                  tincidunt sed nulla malesuada venenatis cum. Amet quis
-                  fermentum tristique nibh est consequat.
+                  Ateliers d’initiation à la création et à la méditation à
+                  travers l’art du batik indonésien.
                 </p>
                 <Link
                   href="/namastha"
