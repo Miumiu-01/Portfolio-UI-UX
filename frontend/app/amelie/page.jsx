@@ -1,48 +1,50 @@
+//import { Eye } from "lucide-react"; // Icône "œil"
 import FooterProject from "../components/FooterProject";
 import ProjectHero from "../components/ProjectHero";
 
-export default function Namastha() {
+export default function Ameli App() {
   return (
     <>
-      <div className="pt-32">
+      <div className="pt-32 ">
         <ProjectHero
-          title="Namastha"
-          subtitle="Un site vitrine pour découvrir et réserver des ateliers de batik indonésien, entre tradition et création."
-          role="UX/UI Design"
-          type="Site vitrine"
-          date="2020"
-          tools="Figma"
-          livrables="Site internet/ Éléments print"
-          bgImage="/images/nmt_h.png"
+          title="Amelie"
+          subtitle=""
+          role="UX Design"
+          type="B2B"
+          date="2024"
+          tools="Figma / Figjam"
+          livrables="Étude et refonte UX"
           stats={[
-            { label: "Site internet", value: "1" },
-            { label: "Charte graphique", value: "1" },
-            { label: "Supports papier", value: "2" },
+            { label: "Écrans", value: "+74" },
+            { label: "Réponses en ligne", value: "+50" },
+            { label: "Entretiens", value: "+10" },
+            { label: "Plateformes", value: "3" },
           ]}
-          appImage="/images/nmt_r.png"
-          appResume="Namastha invite à redécouvrir le temps long de la création à travers l’art du batik indonésien.
+          bgImage="/images/bbt_h.png"
+          appImage="/images/bbt_r.png"
+          appResume="Bibliotheca, entreprise spécialisée dans les solutions technologiques pour bibliothèques, souhaitait améliorer la clarté et l’impact de sa présence en ligne.
 
-          J’ai conçu un site vitrine et des supports imprimés valorisant cette expérience où chaque geste compte, un espace dédié à la lenteur, à la concentration et au plaisir du faire. Le design met en avant le processus autant que le résultat, célébrant la beauté du geste artisanal et du moment présent."
-          // teams={[
-          //   {
-          //     name: "Bibliotheca",
-          //     members: [
-          //       { name: "Rachel Laming", role: "Manager Web Digital" },
-          //       { name: "Vinicius Flores", role: "Marketing Digital" },
-          //     ],
-          //   },
-          //   {
-          //     name: "Design Produit",
-          //     members: [
-          //       { name: "Alini Laube", role: "UI/UX Designer" },
-          //       { name: "Samantha Selva", role: "UX Designer" },
-          //     ],
-          //   },
-          // ]}
+                  La page d’accueil de leur site ne reflétait pas suffisamment leur mission ni la valeur de leurs services, entraînant une faible conversion.
+                  L’objectif du projet était donc de repenser cette page clé pour mieux communiquer leur proposition de valeur et faciliter la compréhension de leur offre dès le premier regard."
+          teams={[
+            {
+              name: "Bibliotheca",
+              members: [
+                { name: "Rachel Laming", role: "Manager Web Digital" },
+                { name: "Vinicius Flores", role: "Marketing Digital" },
+              ],
+            },
+            {
+              name: "Design Produit",
+              members: [
+                { name: "Alini Laube", role: "UI/UX Designer" },
+                { name: "Samantha Selva", role: "UX Designer" },
+              ],
+            },
+          ]}
         />
-
-        <div className="flex justify-center my-10 ">
-          <button className="group relative flex items-center justify-center gap-2 bg-black text-white px-6 py-3 rounded-full hover:bg-[#111111] transition-all duration-300 hover:scale-105">
+        <div className="flex justify-center my-10">
+          <button className="group relative flex items-center justify-center gap-2 bg-black text-white px-6 py-3 rounded-full hover:bg-[#111111] transition-all duration-300 overflow-hidden hover:scale-105">
             {/* Texte par défaut */}
             <span className="font-medium tracking-wide transition-opacity duration-300 group-hover:opacity-0">
               Voir le projet
@@ -58,7 +60,6 @@ export default function Namastha() {
             </span>
           </button>
         </div>
-
         <section className="hidden w-full bg-[#4A6FEF] flex-col items-center px-4 sm:px-6 md:px-8 lg:px-12 xl:px-20 py-12">
           <div className="flex flex-col max-w-6xl sm:w-[100%] md:w-[90%] lg:w-[80%] xl:w-[60%] gap-2 mx-auto">
             <div className="">
@@ -122,12 +123,11 @@ export default function Namastha() {
           </div>
         </section>
       </div>
-
       <FooterProject
-        beforeproject="Lift Up"
-        beforeLink="/liftup"
-        afterproject="Bluebuddy"
-        afterLink="/bluebuddy"
+        beforeproject="Bluebuddy"
+        beforeLink="/bluebuddy"
+        afterproject="Lift Up"
+        afterLink="/liftup"
       />
     </>
   );

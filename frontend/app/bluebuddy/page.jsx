@@ -127,10 +127,10 @@ export default function Bluebuddy() {
         </section>
       </div>
       <FooterProject
-        beforeproject="Bibliotheca"
-        beforeLink="/bibliotheca"
-        afterproject="Namastha"
-        afterLink="/namastha"
+        beforeproject="Namastha"
+        beforeLink="/namastha"
+        afterproject="Bibliotheca"
+        afterLink="/bibliotheca"
       />
       ;
     </>

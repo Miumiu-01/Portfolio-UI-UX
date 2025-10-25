@@ -1,8 +1,8 @@
-// File: /app/app/bluebuddy/page.jsx
-import * as entry from '../../../../app/bluebuddy/page.js'
+// File: /app/app/contact/page.jsx
+import * as entry from '../../../../app/contact/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
-type TEntry = typeof import('../../../../app/bluebuddy/page.js')
+type TEntry = typeof import('../../../../app/contact/page.js')
 
 type SegmentParams<T extends Object = any> = T extends Record<string, any>
   ? { [K in keyof T]: T[K] extends string ? string | string[] | undefined : never }

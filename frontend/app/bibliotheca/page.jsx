@@ -126,8 +126,8 @@ export default function Bibliotheca() {
       <FooterProject
         beforeproject="Bluebuddy"
         beforeLink="/bluebuddy"
-        afterproject="Namastha"
-        afterLink="/namastha"
+        afterproject="Lift Up"
+        afterLink="/liftup"
       />
     </>
   );
